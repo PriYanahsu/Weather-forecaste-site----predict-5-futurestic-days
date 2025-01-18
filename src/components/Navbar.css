@@ -1,0 +1,131 @@
+/* General Navbar Styles */
+.navbar {
+    background: #2196f3;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-container li {
+    list-style: none;
+  }
+  
+  .navbar-container li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-container li a:hover {
+    color: #ffeb3b;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+  
+  .about-us-content {
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  
+  .about-us h3 {
+    font-size: 1.5rem;
+    color: #2196f3;
+  }
+  
+  .about-us p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-us a {
+    color: #2196f3;
+    text-decoration: none;
+  }
+  
+  .about-us a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Close Button for About Us */
+  .close-button {
+    background-color: #ff5733;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #e74c3c;
+  }
+  
+  /* Responsive Styling for Small Screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    .navbar-container li a {
+      font-size: 1rem;
+    }
+  
+    .about-us {
+      width: 90%;
+      left: 5%;
+      right: 5%;
+      top: 30px;
+      max-height: 800%;
+      padding: 15px;
+    }
+  
+    .about-us h3 {
+      font-size: 1.3rem;
+    }
+  
+    .about-us p {
+      font-size: 0.95rem;
+    }
+  
+    .about-us a {
+      font-size: 0.95rem;
+    }
+  
+    .close-button {
+      top: -5px;
+      right: -5px;
+      width: 28px;
+      height: 28px;
+    }
+  }
+  
