@@ -87,6 +87,7 @@ After running the command, the app will be available at:
 ![Screenshot (291)](https://github.com/user-attachments/assets/bd6c5f90-7a06-4780-bd66-86dbc7ad1610)
 
 ## Additional Features
+  #### * Dynamic background change according to the weather.
   #### * Real-time Weather Updates: Fetches the latest weather conditions every refresh.
   #### * Temperature & Wind Speed Display: Shows temperature, humidity, wind speed, and more.
   #### * Weather Icons: Uses API-based icons for different weather conditions.
